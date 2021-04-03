@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Szállítási cím módosítása</h2>
+    <hr>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label>Név <span>*</span></label>
+                    <input type="text" name="nev" id="nev">
+                </td>
+                <td>
+                    <label>Telefonszám <span>*</span></label>
+                    <select name="tel1" id="tel1">
+                        <option value="36" selected>36</option>
+                        <option value="43">43</option>
+                        <option value="40">40</option>
+                        <option value="421">421</option>
+                    </select>
+                    <input type="tel" name="tel2" id="tel2">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <label>Irányítószám <span>*</span></label>
+                    <input type="text" name="nev" id="irany">
+                </td>
+                <td>
+                    <label>Város <span>*</span></label>
+                    <select name="varos" id="varos">
+                        <option value="Budapest">Budapest</option>
+                        <option value="Debrecen">Debrecen</option>
+                        <option value="Szeged">Szeged</option>
+                        <option value="Miskolc">Miskolc</option>
+                        <option value="Pécs">Pécs</option>
+                        <option value="Győr">Győr</option>
+                        <option value="Nyíregyháza">Nyíregyháza</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Ország <span>*</span></label>
+                    <select name="orszag" id="orszag">
+                        <option value="Magyarország">Magyarország</option>
+                        <option value="Horvátország">Horvátország</option>
+                        <option value="Ausztria">Ausztria</option>
+                        <option value="Szlovákia">Szlovákia</option>
+                    </select>
+                </td>
+                <td>
+                    <label>Cím <span>*</span></label>
+                    <input type="text" name="cim" id="cim">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="kuldcol">
+                    <input type="submit" id="mentes" value="Mentés">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

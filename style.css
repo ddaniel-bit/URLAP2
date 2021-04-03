@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size:large;
+}
+hr {
+    border-top:1px dotted #000;
+}
+span {
+    color: red;
+}
+label {
+    color: rgb(95, 95, 95);
+    padding-bottom: 3px;
+}
+input, label {
+    display:block;
+}
+#nev {
+    width: 220px;
+}
+table {
+    border-spacing: 5px;
+}
+td input, select {
+    display: inline;
+}
+#tel2 {
+    width: 183px;
+}
+#irany {
+    width: 120px;
+}
+#varos {
+    width: 340px;
+}
+#orszag {
+    width: 127px;
+}
+#cim {
+    width: 333px;
+}
+#mentes {
+    width: 473px;
+    background-color: rgb(118, 177, 64);
+    border: 1px solid rgb(106, 152, 63);
+    color: white;
+    font-weight: bold;
+    height: 35px;
+}
+input {
+    border: 1px solid rgb(152, 152, 152);
+    height: 30px;
+    width: 95%;
+}
+select {
+    border: 1px solid rgb(152, 152, 152);
+    height: 34px;
+}
+#kuldcol {
+    padding-top: 5px;
+}
